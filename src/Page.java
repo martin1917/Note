@@ -1,7 +1,7 @@
 public class Page extends Song{
-	private int countNontesOnPage; //Кол-во нот на странице
-	static int numOfPages = 1; //кол-во страниц
-	private int numberOfPage; //номер страницы
+	private int countNontesOnPage;
+	static int numOfPages = 1; 
+	private int numberOfPage; 
 	private Page next;  
 	private Page prev; 
 	
@@ -24,21 +24,21 @@ public class Page extends Song{
 		return this.prev;
 	}
 
-	public int getNumOfPages() {//вернуть кол-во страниц
+	public int getNumOfPages() {
 		return numOfPages; 
 	}
 	
-	public int getNumberOfPage() {//вернуть номер страницы
+	public int getNumberOfPage() {
 		return numberOfPage;
 	}
 	
-	public int getСountNontesOnPage() {//вернуть кол-во нот на странице
+	public int getГ‘ountNontesOnPage() {
 		return countNontesOnPage;
 	}
 	
 	@Override
 	public void play() {
 		super.play();
-		System.out.println("\nСтр. " + this.numberOfPage + " \tКол-во нот: " + getNotes().size() + "\n");
+		System.out.println("\nв„– . " + this.numberOfPage + " \Count of notes: " + getNotes().size() + "\n");
 	}
 }
