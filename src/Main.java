@@ -55,7 +55,7 @@ public class Main {
 			}
 			System.out.println("\n");
 		}
-		System.out.print("днаюбхкх мнбсч оеямч б рерпюдэ\n--------------------------------------------------------------\n");
+		System.out.print("Add new song into MelodyNote\n--------------------------------------------------------------\n");
 		
 		melodyNote = songs[0].addSong(songs[1]);
 		for(Song song : melodyNote) {
